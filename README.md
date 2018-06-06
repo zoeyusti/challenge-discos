@@ -1,9 +1,9 @@
 INTEGRANTES
 ===========
 
-+ eli
-+ coni
++ Diaz, Elifer
++ Beccan, Constanza
 + Garcete, Erica E.
-+ zoe
++ Yusti, Zoe
 
 
