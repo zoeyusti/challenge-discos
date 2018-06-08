@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+}
+
+.bodyForm{
+
+	background-color: green;
+	/*width: 50%;*/
+	display: flex;
+	border-radius: 15px;
+	margin: 10% 20%;
+	padding: 2%;
+
+}
+
+.bodyForm .aCompletar{
+	display: flex;
+	margin: 10px;
+	align-items:  center;
+	justify-content: center;
+}
+
+.bodyForm .botones{
+	display: flex;
+	justify-content: center;
+}
+
+.bodyForm button{
+	margin: 10px;
+}
+
+
+
+.bodyForm button{
+	background-color: black;
+	color: white;
+	border-style: solid;
+	border-color: black;
+	padding: 5px;
+	border-radius: 5px;
+	/*font-size: 25px;*/
+
+}
+
+.bodyForm label{
+	color: white;
+	font-size: 18px;
+	margin-right: 10px;
+	width: 50%;
+}
+
+.bodyForm input{
+	background-color: lightgreen;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: lightgreen;
+	font-size: 18px;
+	width: 50%;
+}

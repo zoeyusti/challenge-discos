@@ -1,6 +1,7 @@
 *{
 	font-family: Helvetica;
 }
+
 /*
 
 Color palette:
@@ -50,9 +51,14 @@ button{
 	color:#000000;
 	text-decoration: none;
 	font-size: 15px;
+<<<<<<< HEAD
 	font-weight:bold;
 	display: inline-block; 
 	margin-top: 15px;
+=======
+	font-weight:bold; 
+
+>>>>>>> 46b975f5b2660f9236fc3d9fd4366025c8804992
 }
 
 form.bar input[type=text] {
@@ -67,6 +73,7 @@ form.bar input[type=text] {
 
 
 /* Id's */
+
 
 #fpopular{
 	background-color: #616363;
@@ -100,7 +107,7 @@ form.bar input[type=text] {
 	width: 270px;
 	height: 20px;
 	background-color: #191919;
-	border-color: ##252526;
+	border-color: #252526;
 
 }
 
@@ -131,20 +138,29 @@ form.bar input[type=text] {
 .line{
 	flex:2;
 	text-align: right;
+
 	display: inline-block;
 }
 
 .logo{
+
 	flex:1;
 	width: 100px;
 	height: 100px;
 	background-color: #1DE326;
+
 }
 
 .navBar{
 	width:100%;
+<<<<<<< HEAD
 	height:175px;
+=======
+	height:150px;
+
+>>>>>>> 46b975f5b2660f9236fc3d9fd4366025c8804992
 	background-color:#191919;
+
 }
 
 .popularGames{
@@ -153,14 +169,20 @@ form.bar input[type=text] {
 	width: 90%;
 	height: 600px;
 	background-color:#000000;
+
 	margin: 0 auto;
 }
 
 .center{
+<<<<<<< HEAD
 	display: flex;
 	width: 80%;
 	justify-content: center;
 	margin: 0 auto;
+=======
+
+	justify-content: space-between;
+>>>>>>> 46b975f5b2660f9236fc3d9fd4366025c8804992
 }
 
 .foot{
@@ -216,8 +238,13 @@ form.bar input[type=text] {
 	background: linear-gradient(to left,#8DC25C, white); /*agrega fondo degradado*/
 	border: none;
 }
+<<<<<<< HEAD
 
 
 
 
 /*CONTACTO*/
+=======
+/*CONTACTO*/
+
+>>>>>>> 46b975f5b2660f9236fc3d9fd4366025c8804992
