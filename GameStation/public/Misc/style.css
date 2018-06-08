@@ -13,6 +13,8 @@ GrisTypSobreNegro:#ACAAB3;
 
 */
 
+/* HOME */
+
 /* Tag's */
 
 body{
@@ -26,6 +28,7 @@ nav,section,footer,div{
 
 footer{
 	background-color: #191919;
+	position: relative;
 }
 
 a{
@@ -39,17 +42,29 @@ a{
 
 button{
 	width: 90px;
-	height: 40px;
+	height: 30px;
 	background-color: #1DE326;
 	margin: 10px;
-	padding: 10px;
+	padding: 0px;
 	border-radius: 10px;
 	color:#000000;
 	text-decoration: none;
-	justify-content: space-around;
 	font-size: 15px;
-	font-weight:bold; 
+	font-weight:bold;
+	display: inline-block; 
+	margin-top: 15px;
 }
+
+form.bar input[type=text] {
+	flex:2;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+    background: #616363;
+    margin-top: 10px;
+}
+
 
 /* Id's */
 
@@ -58,6 +73,7 @@ button{
 	width: 400px;
 	height: 400px;
 	border-radius: 250px;
+	margin-top: 80px;
 }
 
 #spopular{
@@ -65,6 +81,9 @@ button{
 	width: 300px;
 	height: 300px;
 	border-radius: 250px;
+	margin:20px;
+	margin-left: 80px;
+	position: relative;
 }
 
 #tpopular{
@@ -72,11 +91,14 @@ button{
 	width: 200px;
 	height: 200px;
 	border-radius: 250px;
+	position: absolute;
+	bottom: 70px;
+	margin-left: 100px; 
 }
 
 #search{
-	width: 250px;
-	height: 30px;
+	width: 270px;
+	height: 20px;
 	background-color: #191919;
 	border-color: ##252526;
 
@@ -84,6 +106,7 @@ button{
 
 #glyph1{
 	width: 40px;
+	padding:5px;
 }
 
 /* Classes */
@@ -120,11 +143,13 @@ button{
 
 .navBar{
 	width:100%;
-	height:150px;
+	height:175px;
 	background-color:#191919;
 }
 
 .popularGames{
+	justify-content: center;
+	padding: 20px;
 	width: 90%;
 	height: 600px;
 	background-color:#000000;
@@ -132,7 +157,10 @@ button{
 }
 
 .center{
-	justify-content: space-between;
+	display: flex;
+	width: 80%;
+	justify-content: center;
+	margin: 0 auto;
 }
 
 .foot{
@@ -140,6 +168,8 @@ button{
 	height: 100px;
 
 }
+/* HOME */
+
 
 /*CONTACTO*/
 .formulario {
@@ -186,4 +216,8 @@ button{
 	background: linear-gradient(to left,#8DC25C, white); /*agrega fondo degradado*/
 	border: none;
 }
+
+
+
+
 /*CONTACTO*/
