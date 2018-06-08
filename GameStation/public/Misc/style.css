@@ -1,0 +1,42 @@
+*{
+	font-family: Helvetica;
+}
+
+/* Tag's */
+
+footer{
+	background-color: #8DC25C;
+}
+
+/* Id's */
+
+
+
+/* Classes */
+.line{
+	display: inline-block;
+}
+
+.logo{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #4B1EA7;
+}
+
+.navBar{
+	width:100%;
+	height:150px;
+	background-color:#4BCCA7;
+}
+
+.popularGames{
+	width: 90%;
+	height: 600px;
+	background-color:#E6D9A7;
+	margin: 0 auto;
+}
+
+.center{
+	text-align: center;
+}
