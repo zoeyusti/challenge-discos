@@ -123,6 +123,27 @@ form.bar input[type=text] {
 	font-size: 15px;
 	font-weight:bold; 
 }
+
+.buttonLink{
+	display: flex;
+	width: 140px;
+	height: 20px;
+	background-color: #1DE326;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	color:#000000;
+	text-decoration: none;
+	justify-content: space-around;
+	font-size: 15px;
+	font-weight:bold; 
+	align-items: center;
+	align-self: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+
 .hpercent{
 	width: 100%;
 	
@@ -143,7 +164,7 @@ form.bar input[type=text] {
 
 .navBar{
 	width:100%;
-	height:175px;
+	height: auto;
 	background-color:#191919;
 }
 
