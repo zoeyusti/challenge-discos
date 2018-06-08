@@ -1,0 +1,41 @@
+img{
+    width: 400px;
+    transform: rotate(-20deg);
+}
+
+.textSomos{
+    font-size: 17px;
+    text-align: justify;
+    color:#ACAAB3;
+}
+
+.textSomos2{
+    font-size: 15px;
+    text-align: justify;
+    color:#ACAAB3;
+
+}
+
+#sec1 , #sec2{
+    padding: 4em;
+    text-align: justify;
+}
+.resaltado1{
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(10, 104, 42);
+}
+
+
+
+.resaltado2{
+    font-weight: bold;
+    color:  rgb(10, 104, 42);
+    font-size: 17px;
+}
+
+.conocenosContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}

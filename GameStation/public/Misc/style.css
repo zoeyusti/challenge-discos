@@ -1,6 +1,7 @@
 *{
 	font-family: Helvetica;
 }
+
 /*
 
 Color palette:
@@ -49,9 +50,11 @@ button{
 	justify-content: space-around;
 	font-size: 15px;
 	font-weight:bold; 
+
 }
 
 /* Id's */
+
 
 #fpopular{
 	background-color: #616363;
@@ -78,7 +81,7 @@ button{
 	width: 250px;
 	height: 30px;
 	background-color: #191919;
-	border-color: ##252526;
+	border-color: #252526;
 
 }
 
@@ -108,30 +111,37 @@ button{
 .line{
 	flex:2;
 	text-align: right;
+
 	display: inline-block;
 }
 
 .logo{
+
 	flex:1;
 	width: 100px;
 	height: 100px;
 	background-color: #1DE326;
+
 }
 
 .navBar{
 	width:100%;
 	height:150px;
+
 	background-color:#191919;
+
 }
 
 .popularGames{
 	width: 90%;
 	height: 600px;
 	background-color:#000000;
+
 	margin: 0 auto;
 }
 
 .center{
+
 	justify-content: space-between;
 }
 
@@ -187,3 +197,4 @@ button{
 	border: none;
 }
 /*CONTACTO*/
+
