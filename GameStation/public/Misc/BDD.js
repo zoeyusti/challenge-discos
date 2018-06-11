@@ -10,3 +10,5 @@ var myGames = [
     {"name":"The legend of Zelda: Twilight Princess", "genero":"Aventura", "cantidad": 6},
 ]
 var myJSON = JSON.stringify(myGames);
+
+console.log(myGames);

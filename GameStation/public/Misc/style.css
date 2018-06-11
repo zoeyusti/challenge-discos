@@ -77,7 +77,7 @@ form.bar input[type=text] {
 	width: 400px;
 	height: 400px;
 	border-radius: 250px;
-	margin-top: 80px;
+
 }
 
 #spopular{
@@ -85,9 +85,6 @@ form.bar input[type=text] {
 	width: 300px;
 	height: 300px;
 	border-radius: 250px;
-	margin:20px;
-	margin-left: 80px;
-	position: relative;
 }
 
 #tpopular{
@@ -95,17 +92,11 @@ form.bar input[type=text] {
 	width: 200px;
 	height: 200px;
 	border-radius: 250px;
-	position: absolute;
-	bottom: 70px;
-	margin-left: 100px; 
+
+ 
 }
 
-#search{
-	width: 270px;
-	height: 20px;
-	background-color: #191919;
-	border-color: #252526;
-}
+
 
 #glyph1{
 	width: 40px;
@@ -119,6 +110,27 @@ form.bar input[type=text] {
 }*/
 
 /* Classes */
+.popularGames{
+	width: 90%;
+	height: 600px;
+	/*background-color:#000000;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+} 
+
+.searchclass{
+	width: 270px;
+	height: 40px;
+	background-color: grey;
+	margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 .social{
 	width: 36px;
 	height: 36px;
@@ -183,14 +195,7 @@ form.bar input[type=text] {
 	background-image: url('../images/fondo.jpg');
 }
 
-.popularGames{
-	justify-content: center;
-	padding: 20px;
-	width: 90%;
-	height: 600px;
-	/*background-color:#000000;*/
-	margin: 0 auto;
-}
+
 
 .center{
 	display: flex;
