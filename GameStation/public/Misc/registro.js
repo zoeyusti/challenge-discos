@@ -5,10 +5,10 @@ var passwordOK = false;
 var emailOK = false;
 
 
-
 document.getElementById('botonNoRegistrado').addEventListener("click", mostrarRegistrar);
 document.getElementById('botonRegistrado').addEventListener("click", mostrarIngresar);
 document.getElementById('registrar').addEventListener("click", guardarInformacion);
+document.getElementById('ingresar').addEventListener("click", comprobarInformacion);
 
 
 function mostrarRegistrar(){
@@ -85,8 +85,72 @@ function guardarInformacion(){
 	    localStorage.setItem('Usuarios', informacion);
 
 	    console.log(Usuarios);
+
+	    //location.reload();
 	}
 //localStorage.clear();
 
 }
 
+function comprobarInformacion (){
+
+	//Usuarios = JSON.parse(datos).Usuarios; 
+
+	console.log(Usuarios);
+
+	userCheck();
+
+	passwordCheck();
+
+
+	if (emailOK && passwordOK) {
+		alert("BIENVENIDO!");
+	}
+}
+
+function userCheck (){
+	Usuarios = JSON.parse(datos).Usuarios; 
+	var mailIngresado = document.getElementById('mailRegistrado').value;
+	//var passwordIngresada = document.getElementById('password').value;
+
+	var i=0;
+	
+
+	while(i<Usuarios.length && !emailOK){
+
+		if (Usuarios[i].user == mailIngresado) {
+			emailOK = true;
+		}else{
+			i++;
+		}
+
+	}
+
+	if(!emailOK){
+		alert("Estás seguro que estás registrado?");
+	}
+
+}
+
+function passwordCheck (){
+	Usuarios = JSON.parse(datos).Usuarios; 
+	var passwordIngresada = document.getElementById('password').value;
+
+	var i = 0;
+
+	while(i<Usuarios.length && !passwordOK){
+		if (Usuarios[i].pass == passwordIngresada) {
+			passwordOK = true;
+		}else{
+			i++;
+		}
+
+	}
+
+	if (!passwordOK) {
+		alert("La contraseña ingresada no es válida");
+	}
+
+
+
+}
