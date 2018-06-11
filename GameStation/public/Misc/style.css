@@ -18,7 +18,6 @@ GrisTypSobreNegro:#ACAAB3;
 /* Tag's */
 
 body{
-
 	background-color: #000000;
 }
 nav,section,footer,div{
@@ -217,7 +216,24 @@ form.bar input[type=text] {
 	border: none;
 }
 
-
-
-
 /*CONTACTO*/
+
+/* SLIDER */
+.bx-wrapper,
+.bx-viewport,
+.slider,
+.bx-controls,
+.bx-contros-direction,
+.bx-pager,
+.bx-pager-item {
+	display: inherit; /* INHERIT es una propiedad de css que te permite NO HEREDAR estilos jerarquicamente */
+	flex-flow: inherit;
+}
+
+.bx-wrapper a {
+	margin: inherit;
+	padding: inherit;
+	border-radius: inherit;
+	color: inherit;
+	text-decoration: inherit;
+}
