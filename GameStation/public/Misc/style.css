@@ -17,9 +17,10 @@ GrisTypSobreNegro:#ACAAB3;
 
 /* Tag's */
 
-body{
+/*body{
 	background-color: #000000;
-}
+}*/
+
 nav,section,footer,div{
 	display: flex;
 	flex-flow: row wrap;
@@ -27,8 +28,12 @@ nav,section,footer,div{
 
 footer{
 	width:100%;
+	height: 50px;
 	background-color: #191919;
 	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 a{
@@ -106,12 +111,12 @@ form.bar input[type=text] {
 	width: 40px;
 	padding:5px;
 }
-#socialMedia{
+/*#socialMedia{
 	display: flex;
 	width: 100%;
 	justify-content: flex-end;
 	text-align: right;
-}
+}*/
 
 /* Classes */
 .social{
@@ -174,8 +179,8 @@ form.bar input[type=text] {
 
 .navBar{
 	width:100%;
-	height: auto;
-	background-color:#191919;
+	height: 400px;
+	background-image: url('../images/fondo.jpg');
 }
 
 .popularGames{
@@ -183,7 +188,7 @@ form.bar input[type=text] {
 	padding: 20px;
 	width: 90%;
 	height: 600px;
-	background-color:#000000;
+	/*background-color:#000000;*/
 	margin: 0 auto;
 }
 
@@ -196,17 +201,17 @@ form.bar input[type=text] {
 
 .foot{
 	background-color: #191919;
-	height: 100px;
-	width: 100%
+	/*height: 100px;
+	width: 100%*/
 }
 
-/*Class temporal para probar posicion con un slider fantasma*/
+/*Class temporal para probar posicion con un slider fantasma
 
 .mySlider{
 	width: 100%;
 	height: 300px;
 	background-color:#191919; 
-}
+}*/
 
 /*Fin sliders temporales*/
 
@@ -236,7 +241,7 @@ form.bar input[type=text] {
     flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background: #8DC25C;
+	background: #1DE326;
 	width: 400px;
 	height: 400px;
 }
@@ -250,15 +255,15 @@ form.bar input[type=text] {
 	margin-top: 30px;
 	display: flex;
 	flex-direction: wrap;
+	flex-wrap: nowrap;
 }
 
 .boton {
 	padding: 10px;
 	border-radius: 10px;
-	background: linear-gradient(to left,#8DC25C, white); /*agrega fondo degradado*/
+	background: linear-gradient(to left,#1DE326, white); /*agrega fondo degradado*/
 	border: none;
 }
-
 /*CONTACTO*/
 
 /* SLIDER */
@@ -280,3 +285,12 @@ form.bar input[type=text] {
 	color: inherit;
 	text-decoration: inherit;
 }
+/* SLIDER */
+
+/*RRSS footer*/
+.icom-instagram, .icom-facebook, .icom-twitter {
+	color: #1DE326;
+	font-size: 2em;
+	margin-right: 20px;
+}
+/*RRSS footer*/
