@@ -65,7 +65,7 @@ function guardarInformacion(){
 	if (passwordOK == true && emailOK == true) {
 
 		var emailUsuarios = document.getElementById('email').value;
-		var passwordUsuarios = document.getElementById('password').value;
+		var passwordUsuarios = document.getElementById('password1').value;
 	    infoUsuarios = {user: emailUsuarios, pass: passwordUsuarios}
 	    //console.log(infoUsuarios);
 
