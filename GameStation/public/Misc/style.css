@@ -1,4 +1,6 @@
 *{
+	padding: 0;
+	margin: 0;
 	font-family: Helvetica;
 }
 /*
@@ -110,6 +112,27 @@ form.bar input[type=text] {
 }*/
 
 /* Classes */
+.header{
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+}
+.navibar{
+	width: 80%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.lupa{
+	color: #ffffff;
+}
+
+.funcbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
 .popularGames{
 	width: 90%;
 	height: 600px;
@@ -183,9 +206,7 @@ form.bar input[type=text] {
 }
 
 .logo{
-	flex:1;
-	width: 100px;
-	height: 100px;
+	left: 0px;
 	
 }
 
@@ -202,6 +223,10 @@ form.bar input[type=text] {
 	width: 80%;
 	justify-content: center;
 	margin: 0 auto;
+}
+
+.registroLink{
+	style:
 }
 
 .foot{
