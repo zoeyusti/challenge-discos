@@ -27,8 +27,8 @@
 			<!--Carrito y Usuario-->
 
 	       	<div class="line">
-	       		<button>Log in</button>
-	       		<button>Sign up</button>
+	       		<a class="buttonLink" href="registro.html">Log in</a>
+	       		<a class="buttonLink" href="registro.html">Sign up</a>
 	       		<span class="glyphicons glyphicons-shopping-cart"></span>
 	       		<span class="glyphicons glyphicons-user"></span>
 	       	</div>
@@ -36,15 +36,18 @@
 			<!--menu-->
 		<div class="hpercent">
 	       	<div class="center">
-	       		<button class="button">Home</button>
-	       		<button class="button">Conocenos</button>
-	       		<button class="button">Como Comprar</button>
-	       		<button class="button">Contacto</button>
+	        	<a class="buttonLink" href="index.html">Home</a>
+	        	<a class="buttonLink" href="conocenos.html">Conocenos</a>
+	        	<a class="buttonLink" href="">Cómo comprar</a>
+	        	<a class="buttonLink" href="contacto.html">Contacto</a>
+	       		
 	       	</div>
 		</div>
 	</nav>
 
 <!--Form de Registro Usuario-->
+
+<!-- ACA VAN LOS QUE YA FUERON REGISTRADOS -->
 
 	<section class="bodyForm">
 		<div id="usuarioRegistrado">
@@ -54,35 +57,41 @@
 				<button id="botonNoRegistrado">Regístrate</button>
 			</div>
 			<div class="aCompletar">
-				<label> Correo electrónico</label>
-				<input type="email" name="email">
+				<div class="aCompletar">
+					<label> Correo electrónico</label>
+					<input type="email" name="email">
+				</div>
+				<div class="aCompletar">
+					<label>Ingrese su contraseña</label>
+					<input type="password" name="password" id="password">
+				</div>
 			</div>
-			<div class="aCompletar">
-				<label>Ingrese su contraseña</label>
-				<input type="password" name="password">
-			</div>
-			
-			<div class="botones"><button>Ingresa</button></div>
+			<div class="botones" id="ingresar"><button>Ingresa</button></div>
 			
 		</div>
+
+<!-- Y ACA VAN LOS QUE SE QUIEREN UNIR -->
+
 		<div id="usuarioNoRegistrado" style="display: none;">
 			<div class="botones">	
 				<button id="botonRegistrado2">Mi Cuenta</button>
 				<button id="botonNoRegistrado2">Regístrate</button>
 			</div>	
 			<div class="aCompletar">
-				<label>Correo electrónico</label>
-				<input type="email" name="email">
+				<div class="aCompletar">
+					<label>Correo electrónico</label>
+					<input type="email" name="email" id="email">
+				</div>
+				<div class="aCompletar">
+					<label>Ingrese su contraseña</label>
+					<input type="password" name="password" id="password1">
+				</div>
+				<div class="aCompletar">
+					<label>Repita su contraseña</label>
+					<input type="password" name="password" id="password2">
+				</div>
 			</div>
-			<div class="aCompletar">
-				<label>Ingrese su contraseña</label>
-				<input type="password" name="password">
-			</div>
-			<div class="aCompletar">
-				<label>Repita su contraseña</label>
-				<input type="password" name="password">
-			</div>
-			<div class="botones"><button>Ingresa</button></div>
+			<div class="botones" id="registrar"><button>Ingresa</button></div>
 				
 			
 		</div>	
