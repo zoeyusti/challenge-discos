@@ -125,6 +125,7 @@ form.bar input[type=text] {
 }
 .lupa{
 	color: #ffffff;
+	margin:0 10px;
 }
 
 .funcbar{
@@ -152,6 +153,10 @@ form.bar input[type=text] {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+ .searchclass::-webkit-input-placeholder, .searchclass::placeholder, .searchclass::-moz-placeholder {
+	color: white;
 }
 
 .social{
