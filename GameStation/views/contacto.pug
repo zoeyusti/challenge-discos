@@ -1,0 +1,32 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  title contacto
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  link(rel='stylesheet' type='text/css' href='contacto.css')
+.formulario
+  .contacto
+    label(for='psw')
+      b Nombre
+    input.space(type='texto' name='Nombre' required='')
+    label(for='email')
+      b Email
+    input.space(type='text' name='email' required='')
+    label(for='asunto')
+      b Asunto
+    input.space(type='texto' name='asunto' required='')
+    label(for='msj')
+      b Mensaje
+    textarea#coemntarios.space(name='comentarios' cols='30' rows='7')
+    button.boton(type='submit') Enviar
+.container
+  .infoContacto
+    h1 Cont&aacute;ctanos
+    p E-mail: info@blablabla.com.ar
+    p Tel&eacute;fono: (+54 9 11 0000-0000)
+    p Direcci&oacute;n:Buenos Aires CABA. &ndash; Argentina.
+  div
+    iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52563.43852822512!2d-58.45603503466382!3d-34.57342834946119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59c771eb933%3A0x6b3113b596d78c69!2sPalermo%2C+CABA!5e0!3m2!1ses!2sar!4v1528495976960' width='1000' height='400' frameborder='0' style='border:0' allowfullscreen='')
+footer redes sociales
+script(src='main.js')
