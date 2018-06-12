@@ -1,18 +1,14 @@
-doctype html
-head
-  meta(charset='UTF-8')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  meta(http-equiv='X-UA-Compatible' content='ie=edge')
-  title Conocenos
-  link(rel='stylesheet' type='text/css' href='conocenos.css')
-.conocenosContainer
-  section#sec1
-    img#imgJoystick(src='joystick.png')
-  section#sec2
-    div
-      p.textSomos
-        | Somos una tienda de venta de video juegos online que ofrece amplia variedad contenidos. Poseemos una amplia variedad de contenidos y genero. Nuestra plataforma con acceso a los contenidos que m&aacute;s te gusten y en el menor tiempo posible de adquisicion.
-    .textSomos2
-      span.resaltado1 &iexcl;La revolucion de los videojuegos ha llegado!
-      br
-      span.resaltado2 No dejes de visitar nuestra tienda...
+extends layout
+
+block content
+    .conocenosContainer
+    section#sec1
+        img#imgJoystick.imgJoystick(src='../images/joystick.png')
+    section#sec2
+        div
+        p.textSomos
+            | Somos una tienda de venta de video juegos online que ofrece amplia variedad contenidos. Poseemos una amplia variedad de contenidos y genero. Nuestra plataforma con acceso a los contenidos que m&aacute;s te gusten y en el menor tiempo posible de adquisicion.
+        .textSomos2
+        span.resaltado1 &iexcl;La revolucion de los videojuegos ha llegado!
+        br
+        span.resaltado2 No dejes de visitar nuestra tienda...

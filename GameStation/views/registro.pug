@@ -1,61 +1,40 @@
-doctype html
-head
-  meta(charset='UTF-8')
-  title Ingresa
-  link(rel='stylesheet' type='text/css' href='style.css')
-  link(rel='stylesheet' type='text/css' href='registro.css')
-// Header
-header.header
-  .logo
-    img(src='../images/logo.png')
-  .navibar
-    .funcbar
-      .sectorSearch
-        input#search.searchclass(type='text' placeholder='Search...' name='search')
-      .sectorLupa
-        span
-          i.fas.fa-search.lupa
-      .sectorLogCreate
-        a.buttonLink.registroLink(href='registro.html') Login | Registarse
-        |  |
-    nav.navi
-      a.buttonLink(href='index.html') HOME
-      a.buttonLink(href='conocenos.html') CONOCENOS
-      a.buttonLink(href='') COMPRAR
-      a.buttonLink(href='contacto.html') CONTACTO
-// Form de Registro Usuario
-// ACA VAN LOS QUE YA FUERON REGISTRADOS
-section.bodyForm
-  #usuarioRegistrado
-    .botones
-      button Mi Cuenta
-      button#botonNoRegistrado Reg&iacute;strate
-    .aCompletar
+extends layout
+
+block content
+
+  // Form de Registro Usuario
+  // ACA VAN LOS QUE YA FUERON REGISTRADOS
+  section.bodyForm
+    #usuarioRegistrado
+      .botones
+        button Mi Cuenta
+        button#botonNoRegistrado Reg&iacute;strate
       .aCompletar
-        label  Correo electr&oacute;nico
-        input#mailRegistrado(type='email' name='email')
+        .aCompletar
+          label  Correo electr&oacute;nico
+          input#mailRegistrado(type='email' name='email')
+        .aCompletar
+          label Ingrese su contrase&ntilde;a
+          input#password(type='password' name='password')
+      #ingresar.botones
+        button Ingresa
+    // Y ACA VAN LOS QUE SE QUIEREN UNIR
+    #usuarioNoRegistrado(style='display: none;')
+      .botones
+        button#botonRegistrado Mi Cuenta
+        button Reg&iacute;strate
       .aCompletar
-        label Ingrese su contrase&ntilde;a
-        input#password(type='password' name='password')
-    #ingresar.botones
-      button Ingresa
-  // Y ACA VAN LOS QUE SE QUIEREN UNIR
-  #usuarioNoRegistrado(style='display: none;')
-    .botones
-      button#botonRegistrado Mi Cuenta
-      button Reg&iacute;strate
-    .aCompletar
-      .aCompletar
-        label Correo electr&oacute;nico
-        input#email(type='email' name='email')
-      .aCompletar
-        label Ingrese su contrase&ntilde;a
-        input#password1(type='password' name='password')
-      .aCompletar
-        label Repita su contrase&ntilde;a
-        input#password2(type='password' name='password')
-    #registrar.botones
-      button Registrate
-// Footer
-footer
-script(type='text/javascript' src='registro.js')
+        .aCompletar
+          label Correo electr&oacute;nico
+          input#email(type='email' name='email')
+        .aCompletar
+          label Ingrese su contrase&ntilde;a
+          input#password1(type='password' name='password')
+        .aCompletar
+          label Repita su contrase&ntilde;a
+          input#password2(type='password' name='password')
+      #registrar.botones
+        button Registrate
+  // Footer
+  footer
+  script(type='text/javascript' src='registro.js')
