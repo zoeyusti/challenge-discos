@@ -1,0 +1,52 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title Game Station
+  link(rel='stylesheet' type='text/css' href='contacto.css')
+  link(rel='stylesheet' type='text/css' href='./style.css')
+  link(rel='stylesheet' href='https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css')
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css' integrity='sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp' crossorigin='anonymous')
+// Header
+header.header
+  .logo
+    img(src='../images/logo.png')
+  .navibar
+    .funcbar
+      .sectorSearch
+        input#search.searchclass(type='text' placeholder='Search...' name='search')
+      .sectorLupa
+        span
+          i.fas.fa-search.lupa
+      .sectorLogCreate
+        a.buttonLink.registroLink(href='registro.html') Login | Registarse
+        |  |
+    nav.navi
+      a.buttonLink(href='index.html') HOME
+      a.buttonLink(href='conocenos.html') CONOCENOS
+      a.buttonLink(href='') COMPRAR
+      a.buttonLink(href='contacto.html') CONTACTO
+// Más populares
+section.popularGames
+  #fpopular
+    img(src='../images/asacover.png')
+  #spopular
+    img(src='../images/batman.png' style='width:300px;height:300px;')
+  #tpopular
+    img(src='../images/magiapotagia.png' style='width:200px;')
+// slider
+.slider
+  img(src='../images/slider1.png' width='1480px' height='340px')
+  img(src='../images/slider2.png' width='1480px' height='340px')
+  img(src='../images/slider3.png' width='1480px' height='340px')
+// slider
+// Footer
+footer
+  .foot
+    #socialMedia
+      i.fab.fa-instagram.icom-instagram
+      i.fab.fa-facebook-square.icom-facebook
+      i.fab.fa-twitter-square.icom-twitter
+// Scripts
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+script(src='https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js')
+script(type='text/javascript' src='js/index.js')
